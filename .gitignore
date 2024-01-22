@@ -1,0 +1,8 @@
+node_modules
+build
+.env
+.vscode
+config.json
+dumps/*
+static/*
+!.keep

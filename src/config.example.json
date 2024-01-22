@@ -1,0 +1,45 @@
+{
+  "clearMessagesOnStartup": true,
+  "ignoredDevices": [],
+  "updateIntervalM": 1,
+  "userAlerts": [],
+  "bot": {
+    "prefix": "!",
+    "status": "Monitoring devices...",
+    "clientId": "<DISCORD_BOT_CLIENT_ID>",
+    "token": "<DISCORD_BOT_TOKEN>"
+  },
+  "logs": {
+    "level": "info",
+    "colors": {
+      "text": "#ffffff",
+      "variable": "#ff624d",
+      "date": "#4287f5",
+      "warn": "#ffff00",
+      "error": "#ff0000"
+    }
+  },
+  "scanner": {
+    "type": "golbat",
+    "url": "http://rdmip:9000",
+    "username": "<RDM_ADMIN_USERNAME>",
+    "password": "<RDM_ADMIN_PASSWORD>"
+  },
+  "times": {
+    "offlineM": 15,
+    "warningM": 5
+  },
+  "servers": {
+    "<DISCORD_GUILD1_ID>": {
+      "name": "<DESCRIPTIVE_NAME>",
+      "summaryChannelId": "00000000001",
+      "devices": [],
+      "ignoredDevices": [],
+      "roleLogging": {
+        "enabled": false,
+        "channelId": "00000000001",
+        "roleIds": []
+      }
+    }
+  }
+}
